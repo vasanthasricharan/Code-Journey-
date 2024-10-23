@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Website</title>
+    <link rel="stylesheet" href="../CSS/newproject.css">
+</head>
+<body>
+    <!-- Loading Screen -->
+    <div id="loading-screen">
+        <div id="loading-text">
+            <div id="loading-container">
+            <span>L</span>
+            <span>O</span>
+            <span>A</span>
+            <span>D</span>
+            <span>I</span>
+            <span>N</span>
+            <span>G</span>
+        </div>
+    </div>
+</div>
+    <!-- Sign-in Page -->
+    <div id="login-page" style="display: none;">
+        <h1>LOGIN</h1>
+        <form id="login-form">
+            <input type="text" id="username" placeholder="Username" required>
+            <input type="password" id="password" placeholder="Password" required>
+            <button type="submit">Sign In</button>
+        </form>
+    </div>
+
+
+<div id="details-page" style="display: none;">
+    <h1>Welcome, <span id="user-name"></span></h1>
+    <div id="user-image">
+        <img id="profile-img"  alt="User Image" style="display: none;">
+    <div id="user-details">
+        <p><strong>Full Name:</strong> <span id="full-name"></span></p>
+        <p><strong>Email:</strong> <span id="email"></span></p>
+        <p><strong>Age:</strong> <span id="age"></span></p>
+        <p><strong>Phone:</strong> <span id="phone"></span></p>
+        <p><strong>Address:</strong> <span id="address"></span></p>
+        <p><strong>Occupation:</strong> <span id="occupation"></span></p>
+        <p><strong>Hobbies:</strong> <span id="hobbies"></span></p>
+        <p><strong>Bio:</strong> <span id="bio"></span></p>
+    </div>   
+</div>
+</div>
+    <script src="../javascript/newproj.js"></script>
+</body>
+</html>
