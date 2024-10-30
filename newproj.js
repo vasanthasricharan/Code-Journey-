@@ -2,7 +2,7 @@ document.addEventListener("DOMContentLoaded", function() {
     setTimeout(function() {
         document.getElementById("loading-screen").style.display = "none";
         document.getElementById("login-page").style.display = "block";
-    }, 2000);
+    }, 3000);
 
     const users = [
         { username: "1", 
