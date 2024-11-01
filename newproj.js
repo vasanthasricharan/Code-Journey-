@@ -59,7 +59,6 @@ document.addEventListener("DOMContentLoaded", function() {
                 loginImg.style.display ="none";
             }
              
-               // Update details page with user information
             document.getElementById("user-name").innerText = validUser.username;
             document.getElementById("full-name").innerText = validUser.fullName;
             document.getElementById("email").innerText = validUser.email;
@@ -74,10 +73,9 @@ document.addEventListener("DOMContentLoaded", function() {
             document.getElementById("details-page").style.display = "block";
             document.getElementById("user-name").innerText = username;
 
-            // Display user image
             const profileImg = document.getElementById("profile-img");
-            profileImg.src = validUser.imageSrc; // Set the image source
-            profileImg.style.display = "block";  // Show the image
+            profileImg.src = validUser.imageSrc; 
+            profileImg.style.display = "block"; 
         } else {
             alert("Incorrect username or password. Please try again.");
         }
